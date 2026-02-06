@@ -1,4 +1,5 @@
-const sr =[{ali:'a1'}, {ali:'a2'}, {ali:'a3'},{ali:'a4'}];
-for(const o of sr){
-   console.log(o.ali)
-}
+const arr = new Array (5, "hello", 6, "aomid" , 8, 9, 10);
+
+let x;
+arr[2] = 7;
+console.log(arr);
